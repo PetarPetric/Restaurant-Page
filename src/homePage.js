@@ -1,3 +1,5 @@
+import vertMenuFac from './navMenu'
+
 const homePageRender = (()=> {
   const contentId = document.querySelector('.content');
   const headerElement = document.createElement('div');
@@ -24,7 +26,7 @@ const homePageRender = (()=> {
   const coronaTxt = document.createTextNode('To ensure maximum control of hygiene procedures and to comply with social distancing we have reduced our covers and introduced additional safety measures for staff and guests. In addition to our a la carte menu we have a new 6 course tasting menu priced at 30$ per person. Our menus are be subject to daily changes.')
 
   const historyTxt = document.createTextNode('World-famous, known for its iconic location, fabulous food and character. Inspired by natural resources, a strong twist of Maldives, and mountains of Italian love. The south-east coastline of Maldives is recognized as amongst the most beautiful in the world, and provides the stage for an extraordinary experience.')
-
+  
   footerElement.append(leftFooter);
   footerElement.append(middleFooter);
   footerElement.append(rightFooter);
@@ -37,7 +39,8 @@ const homePageRender = (()=> {
   middleFooter.classList.add('middle-Footer');
   rightFooter.classList.add('right-Footer');
 
+
 });
 
-
+vertMenuFac(["Home", "Menu", "Contact"], "menuBar", ".content");
 export default homePageRender;
