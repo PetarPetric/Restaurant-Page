@@ -85,3 +85,30 @@ body {
 .menuTabs:hover {
   background-color: #555;
 }
+
+.menuHeader {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.menuList {
+  border: solid #1D375A 5px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 500px;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #1D375A;
+  color: white;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+  padding: 10px;
+  border: solid white 2px;
+  margin: 10px
+}
