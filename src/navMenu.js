@@ -1,6 +1,7 @@
 // Module with Factory Function that creates menu
 import menuPage from './menu';
 import homePageRender from './homePage';
+import contactPagePart from './contactPage';
 
 let contentId;
 
@@ -25,7 +26,7 @@ const vertMenuFac = ([...names], clasa , whereTo) => {
         } else if (e.target.textContent == "Menu") {
           menuPage();
         } else if (e.target.textContent == "Contact") {
-          // something
+          contactPagePart();
         }
       
       }
