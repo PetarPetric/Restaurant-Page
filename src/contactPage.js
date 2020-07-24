@@ -23,7 +23,7 @@ const contactPage = (() => {
 
   contactPart.append(emailAd);
 
-  emailAd.append(document.createTextNode("baratie@rest.sa"));
+  emailAd.append(document.createTextNode("baratierest@gmail.com"));
   emailAd.append(document.createElement("div"));
   emailAd.append(document.createTextNode("(555)-442-385"));
   
