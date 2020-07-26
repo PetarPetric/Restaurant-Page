@@ -1,15 +1,11 @@
 const homePageRender = (()=> {
   const contentId = document.querySelector('.content');
+  const navBar = document.querySelector('.menuDiv');
   contentId.textContent = "";
 
   const headerElement = document.createElement('div');
   headerElement.classList.add('headerClass');
   contentId.append(headerElement);
-
-  const restName = document.createElement('h1');
-  headerElement.append(restName);
-  const restNameTxt = document.createTextNode("Baratie Sea Restaurant");
-  restName.append(restNameTxt);
   
   const footerElement = document.createElement('div');
   const leftFooter = document.createElement('div');
