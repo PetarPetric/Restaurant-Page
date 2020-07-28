@@ -1,0 +1,40 @@
+.menuDiv {
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.menuBar {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.footerClass {
+  display: flex;
+  margin-top: -200px;
+}
+
+.left-Footer {
+  text-align: center;
+  display: inline;
+  
+}
+
+.middle-Footer {
+  display: none;
+}
+
+.right-Footer {
+  display: none;
+}
+
+.menuList {
+  width: 250px;
+}
+
+.contact {
+  width: 300px;
+}

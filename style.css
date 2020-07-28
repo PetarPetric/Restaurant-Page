@@ -10,9 +10,6 @@ body {
   background: #4B6A92;
 }
 
-@media(max-width: 500px) {
-  
-}
 
 .headerClass {
   display: grid;
@@ -27,6 +24,10 @@ body {
   color: white;
   padding-top: 20px;
   padding-right: 35px;
+}
+
+.headerClass h1 {
+  width: 100vh;
 }
 
 
